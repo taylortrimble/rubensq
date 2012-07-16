@@ -1,0 +1,6 @@
+nbproject
+build
+.DS_Store
+Makefile
+dist
+rubensq.err
