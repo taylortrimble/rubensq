@@ -15,6 +15,7 @@
 #undef ANALOG
 
 //PR2 value for the number of humps
+// For old values, consult the project wiki
 rom static unsigned char PR2Value[] =
 {
     1,      //0 - off
