@@ -15,6 +15,7 @@
 #undef ANALOG
 
 //PR2 value for the number of humps
+// For old values, consult the project wiki
 rom static unsigned char PR2Value[] =
 {
     1,      //0 - off
@@ -31,26 +32,6 @@ rom static unsigned char PR2Value[] =
     1,      //0 - off
     1       //dummy
 };
-
-/* OLD OLD OLD OLD OLD OLD OLD OLD
-//PR2 value for the number of humps
-rom static unsigned char PR2Value[] =
-{
-    1,      //0 - off
-    195,    //1
-    149,    //2
-    121,    //3
-    102,    //4
-    86,     //5
-    76,     //6
-    67,     //7
-    62,     //8
-    56,     //9
-    1,      //dummies
-    1,      //dummies
-    1       //dummies
-};
- */
 
 //column numbers
 rom static unsigned char columnLookUp[] =
